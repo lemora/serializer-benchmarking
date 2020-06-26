@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package ser;
+
+option java_package = "frameworks.protobuf.generated.protos";
+option java_outer_classname = "ProtosContainer";
+
+message Proto_DoubleList {
+
+    /* Fields of Proto_DoubleList */
+    repeated double vals = 1;
+}
+
+message Proto_StringList {
+
+    /* Fields of Proto_StringList */
+    repeated string vals = 1;
+}
+
+message Proto_IntList {
+
+    /* Fields of Proto_IntList */
+    repeated int32 vals = 1;
+}

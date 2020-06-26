@@ -1,0 +1,57 @@
+{
+  "environment": {
+    "jdkVersion": "",
+    "vmName": "",
+    "vmVersion": "",
+    "machineName": "zitpcx22820",
+    "physicalCores": 2,
+    "virtualCores": 4,
+    "numberOfParallelBenchmarkers": 1,
+    "date": "19-08-12"
+  },
+  "jmh": {
+    "scoreUnit": "bytes/object"
+  },
+  "benchmarker": {
+    "name": "JavaSerSizer",
+    "type": "java"
+  },
+  "values": [
+    {
+      "benchmark": "java_msg00_ser",
+      "object": "msg00",
+      "score": 48.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "java_msg01_ser",
+      "object": "msg01",
+      "score": 164.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "java_msg02_ser",
+      "object": "msg02",
+      "score": 335.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "java_msg03_ser",
+      "object": "msg03",
+      "score": 363.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "java_msg04_ser",
+      "object": "msg04",
+      "score": 470.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "java_msg05_ser",
+      "object": "msg05",
+      "score": 1256.0,
+      "valueCount": 1.0
+    }
+  ]
+}

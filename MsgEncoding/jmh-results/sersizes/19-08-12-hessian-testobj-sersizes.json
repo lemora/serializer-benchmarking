@@ -1,0 +1,57 @@
+{
+  "environment": {
+    "jdkVersion": "",
+    "vmName": "",
+    "vmVersion": "",
+    "machineName": "zitpcx22820",
+    "physicalCores": 2,
+    "virtualCores": 4,
+    "numberOfParallelBenchmarkers": 1,
+    "date": "19-08-12"
+  },
+  "jmh": {
+    "scoreUnit": "bytes/object"
+  },
+  "benchmarker": {
+    "name": "HessianSerSizer",
+    "type": "hessian"
+  },
+  "values": [
+    {
+      "benchmark": "hessian_msg00_ser",
+      "object": "msg00",
+      "score": 35.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "hessian_msg01_ser",
+      "object": "msg01",
+      "score": 131.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "hessian_msg02_ser",
+      "object": "msg02",
+      "score": 208.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "hessian_msg03_ser",
+      "object": "msg03",
+      "score": 226.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "hessian_msg04_ser",
+      "object": "msg04",
+      "score": 205.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "hessian_msg05_ser",
+      "object": "msg05",
+      "score": 858.0,
+      "valueCount": 1.0
+    }
+  ]
+}

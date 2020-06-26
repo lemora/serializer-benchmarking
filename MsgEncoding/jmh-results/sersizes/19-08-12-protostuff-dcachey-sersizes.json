@@ -1,0 +1,27 @@
+{
+  "environment": {
+    "jdkVersion": "",
+    "vmName": "",
+    "vmVersion": "",
+    "machineName": "zitpcx22820",
+    "physicalCores": 2,
+    "virtualCores": 4,
+    "numberOfParallelBenchmarkers": 1,
+    "date": "19-08-12"
+  },
+  "jmh": {
+    "scoreUnit": "bytes/object"
+  },
+  "benchmarker": {
+    "name": "ProtostuffSerSizer",
+    "type": "protostuff"
+  },
+  "values": [
+    {
+      "benchmark": "protostuff_pmpum_ser",
+      "object": "pmpum",
+      "score": 184.0,
+      "valueCount": 1.0
+    }
+  ]
+}

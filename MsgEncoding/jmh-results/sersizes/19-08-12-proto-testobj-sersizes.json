@@ -1,0 +1,57 @@
+{
+  "environment": {
+    "jdkVersion": "",
+    "vmName": "",
+    "vmVersion": "",
+    "machineName": "zitpcx22820",
+    "physicalCores": 2,
+    "virtualCores": 4,
+    "numberOfParallelBenchmarkers": 1,
+    "date": "19-08-12"
+  },
+  "jmh": {
+    "scoreUnit": "bytes/object"
+  },
+  "benchmarker": {
+    "name": "ProtoSerSizer",
+    "type": "proto"
+  },
+  "values": [
+    {
+      "benchmark": "proto_msg00_ser",
+      "object": "msg00",
+      "score": 0.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "proto_msg01_ser",
+      "object": "msg01",
+      "score": 32.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "proto_msg02_ser",
+      "object": "msg02",
+      "score": 36.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "proto_msg03_ser",
+      "object": "msg03",
+      "score": 70.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "proto_msg04_ser",
+      "object": "msg04",
+      "score": 137.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "proto_msg05_ser",
+      "object": "msg05",
+      "score": 622.0,
+      "valueCount": 1.0
+    }
+  ]
+}

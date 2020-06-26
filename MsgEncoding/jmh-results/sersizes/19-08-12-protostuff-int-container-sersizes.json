@@ -1,0 +1,57 @@
+{
+  "environment": {
+    "jdkVersion": "",
+    "vmName": "",
+    "vmVersion": "",
+    "machineName": "zitpcx22820",
+    "physicalCores": 2,
+    "virtualCores": 4,
+    "numberOfParallelBenchmarkers": 1,
+    "date": "19-08-12"
+  },
+  "jmh": {
+    "scoreUnit": "bytes/object"
+  },
+  "benchmarker": {
+    "name": "ProtostuffSerSizer",
+    "type": "protostuff"
+  },
+  "values": [
+    {
+      "benchmark": "sersize_intlist_10",
+      "object": "intlist",
+      "score": 94.0,
+      "valueCount": 10.0
+    },
+    {
+      "benchmark": "sersize_intlist_100",
+      "object": "intlist",
+      "score": 840.0,
+      "valueCount": 100.0
+    },
+    {
+      "benchmark": "sersize_intlist_500",
+      "object": "intlist",
+      "score": 4168.0,
+      "valueCount": 500.0
+    },
+    {
+      "benchmark": "sersize_intlist_1000",
+      "object": "intlist",
+      "score": 8434.0,
+      "valueCount": 1000.0
+    },
+    {
+      "benchmark": "sersize_intlist_10000",
+      "object": "intlist",
+      "score": 84583.0,
+      "valueCount": 10000.0
+    },
+    {
+      "benchmark": "sersize_intlist_100000",
+      "object": "intlist",
+      "score": 843859.0,
+      "valueCount": 100000.0
+    }
+  ]
+}

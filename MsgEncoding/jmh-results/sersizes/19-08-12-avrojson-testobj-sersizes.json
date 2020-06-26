@@ -1,0 +1,57 @@
+{
+  "environment": {
+    "jdkVersion": "",
+    "vmName": "",
+    "vmVersion": "",
+    "machineName": "zitpcx22820",
+    "physicalCores": 2,
+    "virtualCores": 4,
+    "numberOfParallelBenchmarkers": 1,
+    "date": "19-08-12"
+  },
+  "jmh": {
+    "scoreUnit": "bytes/object"
+  },
+  "benchmarker": {
+    "name": "SerSizerAvro",
+    "type": "avro"
+  },
+  "values": [
+    {
+      "benchmark": "avrojson_msg00_ser",
+      "object": "msg00",
+      "score": 0.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "avrojson_msg01_ser",
+      "object": "msg01",
+      "score": 147.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "avrojson_msg02_ser",
+      "object": "msg02",
+      "score": 171.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "avrojson_msg03_ser",
+      "object": "msg03",
+      "score": 337.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "avrojson_msg04_ser",
+      "object": "msg04",
+      "score": 183.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "avrojson_msg05_ser",
+      "object": "msg05",
+      "score": 735.0,
+      "valueCount": 1.0
+    }
+  ]
+}

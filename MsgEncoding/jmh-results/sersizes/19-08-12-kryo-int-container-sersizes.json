@@ -1,0 +1,57 @@
+{
+  "environment": {
+    "jdkVersion": "",
+    "vmName": "",
+    "vmVersion": "",
+    "machineName": "zitpcx22820",
+    "physicalCores": 2,
+    "virtualCores": 4,
+    "numberOfParallelBenchmarkers": 1,
+    "date": "19-08-12"
+  },
+  "jmh": {
+    "scoreUnit": "bytes/object"
+  },
+  "benchmarker": {
+    "name": "KryoSerSizer",
+    "type": "kryo"
+  },
+  "values": [
+    {
+      "benchmark": "sersize_intlist_10",
+      "object": "intlist",
+      "score": 52.0,
+      "valueCount": 10.0
+    },
+    {
+      "benchmark": "sersize_intlist_100",
+      "object": "intlist",
+      "score": 499.0,
+      "valueCount": 100.0
+    },
+    {
+      "benchmark": "sersize_intlist_500",
+      "object": "intlist",
+      "score": 2474.0,
+      "valueCount": 500.0
+    },
+    {
+      "benchmark": "sersize_intlist_1000",
+      "object": "intlist",
+      "score": 4948.0,
+      "valueCount": 1000.0
+    },
+    {
+      "benchmark": "sersize_intlist_10000",
+      "object": "intlist",
+      "score": 49347.0,
+      "valueCount": 10000.0
+    },
+    {
+      "benchmark": "sersize_intlist_100000",
+      "object": "intlist",
+      "score": 493681.0,
+      "valueCount": 100000.0
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{"namespace": "frameworks.avro.generated.randobjects",
+ "type": "record",
+ "name": "Avro_Msg_rw04",
+ "fields": [
+    {"name": "_stringList01", "type": {"type": "array", "items": "string"}},
+    {"name": "_intStrMap01", "type": {"type": "map", "values": "string"}}
+    ]
+}

@@ -1,0 +1,9 @@
+{"namespace": "frameworks.avro.generated.randobjects",
+ "type": "record",
+ "name": "Avro_Msg_rw03",
+ "fields": [
+    {"name": "_msg", "type": "Avro_Msg"},
+    {"name": "_msg_rw01_00", "type": "Avro_Msg_rw01"},
+    {"name": "_msg_rw01_01", "type": "Avro_Msg_rw01"}
+    ]
+}

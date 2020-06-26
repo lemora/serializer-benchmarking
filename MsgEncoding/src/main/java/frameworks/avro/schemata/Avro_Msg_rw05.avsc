@@ -1,0 +1,14 @@
+{"namespace": "frameworks.avro.generated.randobjects",
+ "type": "record",
+ "name": "Avro_Msg_rw05",
+ "fields": [
+    {"name": "_byte01",  "type": "bytes"},
+    {"name": "_boolean01", "type": "boolean"},
+    {"name": "_short01", "type": "int"},
+    {"name": "_int01", "type": "int"},
+    {"name": "_long01", "type": "long"},
+    {"name": "_float01", "type": "float"},
+    {"name": "_double01", "type": "double"},
+    {"name": "_string01", "type": "string"}
+ ]
+}

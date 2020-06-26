@@ -1,0 +1,54 @@
+Bootstrap: docker
+From: centos:7
+
+%labels
+  MAINTAINER  Lea Morschel @ DESY
+  
+##############################################################################
+# help
+##############################################################################
+%help
+Creates a container that includes a benchmarker jar file and uses a specific
+Java and OS version for reproducibility. The benchmarker may be started via
+the container and writes the benchmarking results into the provided
+directory that is linked to /result internally.
+
+##############################################################################
+# files
+##############################################################################
+%files
+../Serializing.jar /Benchmarker.jar
+
+##############################################################################
+# post
+##############################################################################
+%post
+yum -y update
+
+#######################################
+## getting java 8
+yum install -y wget java-1.8.0-openjdk.x86_64
+
+#######################################
+## adding the result mount point
+mkdir /results
+
+#######################################
+## clean up
+yum clean all
+rm -rf /var/log/* /var/cache/yum
+
+##############################################################################
+# environment
+##############################################################################
+%environment
+export JAVA_HOME="/usr/lib/jvm/jre-1.8.0"
+
+##############################################################################
+# run & start scripts (same)
+##############################################################################
+%runscript
+java -jar /Benchmarker.jar --type ${SER_PROTOCOL} --out /results --name ${BM_NAME}
+
+%startscript
+java -jar /Benchmarker.jar --type ${SER_PROTOCOL} --out /results --name ${BM_NAME}

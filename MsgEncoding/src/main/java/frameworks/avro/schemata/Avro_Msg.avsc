@@ -1,0 +1,6 @@
+{"namespace": "frameworks.avro.generated.randobjects",
+ "type": "record",
+ "name": "Avro_Msg",
+ "fields": [
+ ]
+}

@@ -1,0 +1,57 @@
+{
+  "environment": {
+    "jdkVersion": "",
+    "vmName": "",
+    "vmVersion": "",
+    "machineName": "zitpcx22820",
+    "physicalCores": 2,
+    "virtualCores": 4,
+    "numberOfParallelBenchmarkers": 1,
+    "date": "19-08-12"
+  },
+  "jmh": {
+    "scoreUnit": "bytes/object"
+  },
+  "benchmarker": {
+    "name": "FstSerSizer",
+    "type": "fst"
+  },
+  "values": [
+    {
+      "benchmark": "sersize_doublelist_10",
+      "object": "doublelist",
+      "score": 136.0,
+      "valueCount": 10.0
+    },
+    {
+      "benchmark": "sersize_doublelist_100",
+      "object": "doublelist",
+      "score": 1036.0,
+      "valueCount": 100.0
+    },
+    {
+      "benchmark": "sersize_doublelist_500",
+      "object": "doublelist",
+      "score": 5038.0,
+      "valueCount": 500.0
+    },
+    {
+      "benchmark": "sersize_doublelist_1000",
+      "object": "doublelist",
+      "score": 10038.0,
+      "valueCount": 1000.0
+    },
+    {
+      "benchmark": "sersize_doublelist_10000",
+      "object": "doublelist",
+      "score": 100038.0,
+      "valueCount": 10000.0
+    },
+    {
+      "benchmark": "sersize_doublelist_100000",
+      "object": "doublelist",
+      "score": 1000040.0,
+      "valueCount": 100000.0
+    }
+  ]
+}

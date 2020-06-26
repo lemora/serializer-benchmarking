@@ -1,0 +1,64 @@
+syntax = "proto3";
+
+package ser;
+
+option java_package = "frameworks.protobuf.generated.protos";
+option java_outer_classname = "ProtosTestobj";
+
+message Proto_Msg {
+
+    /* Fields of Msg */
+}
+
+message Proto_Msg_rw01 {
+
+    /* Fields of Proto_MsgRw01 */
+    int32 _char01 = 1;
+    int32 _byte01 = 2;
+    bool _boolean01 = 3;
+
+    int32 _short01 = 4;
+    int32 _int01 = 5;
+    int64 _long01 = 6;
+
+    float _float01 = 7;
+    double _double01 = 8;
+}
+
+message Proto_Msg_rw02 {
+
+    /* Fields of Proto_Msg_rw02 */
+    Proto_Msg _msg = 1;
+    Proto_Msg_rw01 _msg_rw01 = 2;
+}
+
+message Proto_Msg_rw03 {
+
+    /* Fields of Msg_rw03 */
+    Proto_Msg _msg = 1;
+    Proto_Msg_rw01 _msg_rw01_00 = 2;
+    Proto_Msg_rw01 _msg_rw01_01 = 3;
+}
+
+message Proto_Msg_rw04 {
+
+    /* Fields of Proto_Msg_rw04 */
+    repeated string _stringList01 = 1;
+    map<int32,string> _intStrMap01 = 2;
+}
+
+message Proto_Msg_rw05 {
+
+    /* Fields of Proto_Msg_rw05 */
+    int32 _byte01 = 1;
+    bool _boolean01 = 2;
+
+    int32 _short01 = 3;
+    int32 _int01 = 4;
+    int64 _long01 = 5;
+
+    float _float01 = 6;
+    double _double01 = 7;
+
+    string _string01 = 8;
+}

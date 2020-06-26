@@ -1,0 +1,57 @@
+{
+  "environment": {
+    "jdkVersion": "",
+    "vmName": "",
+    "vmVersion": "",
+    "machineName": "zitpcx22820",
+    "physicalCores": 2,
+    "virtualCores": 4,
+    "numberOfParallelBenchmarkers": 1,
+    "date": "19-08-12"
+  },
+  "jmh": {
+    "scoreUnit": "bytes/object"
+  },
+  "benchmarker": {
+    "name": "SerSizerAvro",
+    "type": "avro"
+  },
+  "values": [
+    {
+      "benchmark": "sersize_stringlist_10",
+      "object": "stringlist",
+      "score": 372.0,
+      "valueCount": 10.0
+    },
+    {
+      "benchmark": "sersize_stringlist_100",
+      "object": "stringlist",
+      "score": 3703.0,
+      "valueCount": 100.0
+    },
+    {
+      "benchmark": "sersize_stringlist_500",
+      "object": "stringlist",
+      "score": 18503.0,
+      "valueCount": 500.0
+    },
+    {
+      "benchmark": "sersize_stringlist_1000",
+      "object": "stringlist",
+      "score": 37003.0,
+      "valueCount": 1000.0
+    },
+    {
+      "benchmark": "sersize_stringlist_10000",
+      "object": "stringlist",
+      "score": 370004.0,
+      "valueCount": 10000.0
+    },
+    {
+      "benchmark": "sersize_stringlist_100000",
+      "object": "stringlist",
+      "score": 3700004.0,
+      "valueCount": 100000.0
+    }
+  ]
+}

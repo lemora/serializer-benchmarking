@@ -1,0 +1,7 @@
+{"namespace": "frameworks.avro.generated.randobjects",
+ "type": "record",
+ "name": "Avro_DoubleList",
+ "fields": [
+    {"name": "values", "type": {"type": "array", "items": "double"}}
+    ]
+}

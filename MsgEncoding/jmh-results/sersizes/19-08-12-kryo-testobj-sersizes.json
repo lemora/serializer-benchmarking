@@ -1,0 +1,57 @@
+{
+  "environment": {
+    "jdkVersion": "",
+    "vmName": "",
+    "vmVersion": "",
+    "machineName": "zitpcx22820",
+    "physicalCores": 2,
+    "virtualCores": 4,
+    "numberOfParallelBenchmarkers": 1,
+    "date": "19-08-12"
+  },
+  "jmh": {
+    "scoreUnit": "bytes/object"
+  },
+  "benchmarker": {
+    "name": "KryoSerSizer",
+    "type": "kryo"
+  },
+  "values": [
+    {
+      "benchmark": "kryo_msg00_ser",
+      "object": "msg00",
+      "score": 0.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "kryo_msg01_ser",
+      "object": "msg01",
+      "score": 26.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "kryo_msg02_ser",
+      "object": "msg02",
+      "score": 28.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "kryo_msg03_ser",
+      "object": "msg03",
+      "score": 55.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "kryo_msg04_ser",
+      "object": "msg04",
+      "score": 117.0,
+      "valueCount": 1.0
+    },
+    {
+      "benchmark": "kryo_msg05_ser",
+      "object": "msg05",
+      "score": 624.0,
+      "valueCount": 1.0
+    }
+  ]
+}
